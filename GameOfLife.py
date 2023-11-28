@@ -92,3 +92,5 @@ def draw_array (array):
             turtle.penup()
     turtle.done()
 
+draw_array(array_to_draw)
+
