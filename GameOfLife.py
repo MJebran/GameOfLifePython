@@ -44,8 +44,7 @@ def GetNextGeneration(cells):
     # A live cell with more than three live neighbors dies.
     # A dead cell will be brought back to live if it has exactly three live neighbors.
 
-    will_live = (counts == 2)&(cells == 1 ) | (counts == 3)&(cells == 1) |(counts == 3)&(cells == 0)
-
+    will_live = (counts == 2)&(cells == 1 ) | (counts == 3)
     print(counts)
     print(will_live)
 
